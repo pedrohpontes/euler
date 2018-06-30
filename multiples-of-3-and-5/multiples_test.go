@@ -61,6 +61,7 @@ func TestMultiplesOf3and5(t *testing.T) {
 		{6, 8},
 		{10, 23},
 		{1000, 233168},
+		{10000, 23331668},
 	}
 
 	for _, test := range testCases {

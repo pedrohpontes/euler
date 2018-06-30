@@ -1,13 +1,10 @@
 package multiples
 
 func sumUpTo(upperBound int) int {
-	total := 0
-
-	for i := 0; i < upperBound; i++ {
-		total += i
+	if upperBound < 2 {
+		return 0
 	}
-
-	return total
+	return (upperBound * (upperBound - 1)) / 2
 }
 
 func sumOfMultiplesOf(divisor, upperBound int) int {
