@@ -9,8 +9,8 @@ func sumOfMultiplesOf(divisor, upperBound int) int {
 }
 
 // SumOfMultiplesOf3and5 calculates the sum of all integers between 1 and
-// upperBound, not including upperBound, that are multiples of either 3
-// or 5.
+// upperBound, not including upperBound, that are multiples of 3 or 5 (or
+// both).
 func SumOfMultiplesOf3and5(upperBound int) int {
 	sumOfMultiplesOf3 := sumOfMultiplesOf(3, upperBound)
 	sumOfMultiplesOf5 := sumOfMultiplesOf(5, upperBound)
