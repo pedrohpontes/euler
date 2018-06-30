@@ -1,9 +1,6 @@
 package multiples
 
 func sumUpTo(upperBound int) int {
-	if upperBound < 2 {
-		return 0
-	}
 	return (upperBound * (upperBound - 1)) / 2
 }
 
